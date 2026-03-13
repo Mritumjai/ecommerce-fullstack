@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-backend-at-scale",
+  "version": "1.0.0",
+  "description": "Portfolio-grade e-commerce backend with products, carts, coupons, checkout, payments, orders, caching, and analytics.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/app.test.js",
+    "start:docker": "docker compose up --build",
+    "db:schema": "node scripts/print-schema.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.3"
+  },
+  "keywords": [
+    "node",
+    "backend",
+    "ecommerce",
+    "portfolio"
+  ],
+  "license": "MIT"
+}
